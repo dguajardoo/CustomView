@@ -25,6 +25,7 @@ class EmailValidatorView(context: Context, attrs: AttributeSet): RelativeLayout(
         successColor = attributes.getColor(R.styleable.MailValidator_underlineSuccessColor, ContextCompat.getColor(context, R.color.colorAccent))
         attributes.recycle()
 
+
         etMail.addTextChangedListener(this)
     }
 
